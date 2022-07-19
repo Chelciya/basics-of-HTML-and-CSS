@@ -1,0 +1,92 @@
+.caromframe{
+   
+    border: 30px rgb(193, 117, 45) solid;
+    height: 400px;
+    width: 450px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50px;;
+    left: 300px;
+}
+.pockets{
+border-radius: 50%;
+background-color: black;
+height: 30px;
+width: 30px;
+position: absolute;
+}
+.p1{
+top: 0%;
+left: 0%;
+}
+.p2{
+    top: 0%;
+    right: 0%;
+}
+.p3{
+    bottom: 0%;
+    right: 0%;
+}
+.p4{
+    bottom: 0%;
+    left: 0%;
+}
+.base{padding: -2px;
+    border: 2px solid black;
+    position: absolute;  
+    border-radius: 35px;
+}
+.b1{
+    padding: -2px;
+    height: 20px;
+    width: 250px;
+    top: 60px;
+    left: 90px;
+    border-bottom: 1px black solid;
+}
+.b2{
+    border-right: 1px black solid;
+    padding: -2px;
+    height: 220px;
+    width: 20px;
+    top: 100px;
+    left: 75px;
+
+}
+.b3{
+    border-top: 1px black solid;
+    padding: -2px;
+    height: 20px;
+    width: 250px;
+    top: 330px;
+    left: 90px;
+
+}
+.b4{
+    border-left: 1px black solid;
+    padding: -2px;
+    height: 220px;
+    width: 20px;
+    top: 100px;
+    left: 330px;
+
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+   
+}
+.c1{
+    left: 0%;
+
+}
+.c2{
+    right: 0%;
+}
+.bottom{
+    bottom: 0%;
+}
