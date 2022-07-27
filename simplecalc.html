@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<script src="jsexample.js"></script>-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcstyle.css">
+    <script src="jsexample.js"></script>
+    <title>simple calc</title>
+</head>
+<body>
+   <h2>Simple calculator using javascript</h2>
+   <div class="calc">
+<br>
+    <input type="text" id="input"><br>
+    <br>
+    <div class="button">
+<button id="one" onclick="input.value=input.value+1">1</button>
+<button class="two"onclick="input.value=input.value+2" >2</button>
+<button class="three" onclick="input.value=input.value+3">3</button>
+<br>
+<button class="four" onclick="input.value=input.value+4">4</button>
+<button class="five" onclick="input.value=input.value+5">5</button>
+<button class="six" onclick="input.value=input.value+6">6</button>
+<br>
+<button class="seven"onclick="input.value=input.value+7" >7</button>
+<button class="eight"onclick="input.value=input.value+8" >8</button>
+<button class="nine"onclick="input.value=input.value+9" >9</button>
+<br>
+<button class="zero" onclick="input.value=input.value+0">0</button>
+<button class="dot"onclick="input.value=input.value+'.'"> . </button>
+<button class="plus"onclick="input.value=input.value+'+'"> + </button>
+
+<br>
+<button class="minus"onclick="input.value=input.value+'-'"> - </button>
+<button class="multi"onclick="input.value=input.value+'*'"> * </button>
+<button class="div"onclick="input.value=input.value+'/'"> /</button>
+<br>
+<button class="equalto" onclick="input.value=eval(input.value)">=</button>
+<button class="clear" onclick="input.value=''"> CLEAR</button>
+</div>
+
+   </div>
+</body>
+</html>
